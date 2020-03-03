@@ -9,15 +9,15 @@ import { ScrollingModule } from '@angular/cdk/scrolling';
 import { DragDropModule } from '@angular/cdk/drag-drop';
 
 //Components
-// import { DragComponent } from './components/drag/drag.component';
-// import { PaisesComponent } from './components/paises/paises.component';
+import { DragComponent } from './components/drag/drag.component';
+import { PaisesComponent } from './components/paises/paises.component';
 import { VirtualComponent } from './components/virtual/virtual.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    // DragComponent,
-    // PaisesComponent,
+    DragComponent,
+    PaisesComponent,
     VirtualComponent
   ],
   imports: [
